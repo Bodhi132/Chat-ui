@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { sendMessage, receiveMessage, addLoader } from '../features/chat/chatslice'
+import { sendMessage, receiveMessage, addLoader } from '../features/chat/chatSlice'
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
